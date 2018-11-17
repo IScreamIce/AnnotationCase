@@ -26,3 +26,5 @@
 测试案例：test.java.com.kaige123.daomu.FindServiceTest类
 
 在当前案例中，有一类似servle的注册服务。将服务通过注解注册在池中，有访问时按URI抓服务对象。在测试中还有对动态代理的使用
+
+在这个过程中：我们将我们service包下的服务类。交给FindRegService简易框架管理。由它作为口子去启动。能达到动态扩展服务注册上的灵活，并能使用动态代理效果
